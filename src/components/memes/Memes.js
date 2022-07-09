@@ -25,7 +25,7 @@ const Memes = () => {
           get a new meme image 🖼
         </button>
       </div>
-      <img src={memeImage} alt="random meme imagery"/>
+      <img src={memeImage} alt="random meme imagery" className="meme--image"/>
     </main>
   );
 };
